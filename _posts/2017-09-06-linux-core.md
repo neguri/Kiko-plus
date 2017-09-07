@@ -33,11 +33,14 @@ segmentation fault가 발생하면 다음 순서로 진행을 해보자
 $ du -hs
 $ du -h --max-depth=1
 ```
+
 ### 2. python version
+
 ```
 alias python="/usr/bin/python"
 alias python="/home/neguri/anaconda3/python"
 ```
-3.6을 쓰고 싶은데 poky 빌드를 하려면 v2가 필요하다고 한다.
+
+4.3.6을 쓰고 싶은데 poky 빌드를 하려면 v2가 필요하다고 한다.
 
 
