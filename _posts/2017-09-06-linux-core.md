@@ -26,14 +26,14 @@ segmentation fault가 발생하면 다음 순서로 진행을 해보자
 
 
 ## 2. 명령어
-###1. du
+### 1. du
 
 디렉토리의 크기를 알고 싶을때
 ```
 $ du -hs
 $ du -h --max-depth=1
 ```
-###2. python version
+### 2. python version
 ```
 alias python="/usr/bin/python"
 alias python="/home/neguri/anaconda3/python"
