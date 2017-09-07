@@ -23,3 +23,21 @@ segmentation fault가 발생하면 다음 순서로 진행을 해보자
 * backtrace 보기
 * f #n 으로 원하는 프레임으로 이동하기
 * p val로 변수 값 확인해 보기
+
+
+## 2. 명령어
+###1. du
+
+디렉토리의 크기를 알고 싶을때
+```
+$ du -hs
+$ du -h --max-depth=1
+```
+###2. python version
+```
+alias python="/usr/bin/python"
+alias python="/home/neguri/anaconda3/python"
+```
+3.6을 쓰고 싶은데 poky 빌드를 하려면 v2가 필요하다고 한다.
+
+
