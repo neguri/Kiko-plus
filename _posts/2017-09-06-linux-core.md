@@ -64,20 +64,20 @@ int main()
 // 실행하면 core 가 생김. 실행하기 전에 coredump 생성될 수 있도록 "ulimit -c unlimited" 를 실행해 줘야 함
  
 
-jaehoc@xubuntu:~/workSpace/cpp/0905$ g++ -g -std=c++11 fill_n.cpp
-jaehoc@xubuntu:~/workSpace/cpp/0905$ ./a.out
+$ g++ -g -std=c++11 fill_n.cpp
+$ ./a.out
 100  100  100  100  4  5  6  7  8  9
 세그멘테이션 오류 (core dumped)
 
 
 // core file 생성됨을 확인
-jaehoc@xubuntu:~/workSpace/cpp/0905$ ll
--rwxrwxr-x 1 jaehoc jaehoc  70104  9월  5 13:17 a.out*
--rw------- 1 jaehoc jaehoc 561152  9월  5 13:17 core
--rw-rw-r-- 1 jaehoc jaehoc    357  9월  5 13:07 fill_n.cpp
+$ ll
+-rwxrwxr-x 1 70104  9월  5 13:17 a.out*
+-rw------- 1 561152  9월  5 13:17 core
+-rw-rw-r-- 1 357  9월  5 13:07 fill_n.cpp
 
 // gdb 로 ./a.out 과 ./.core를 로딩. 실행파일을 먼저 부르고 그 다음에 core를 
-jaehoc@xubuntu:~/workSpace/cpp/0905$ gdb ./a.out ./core
+$ gdb ./a.out ./core
 GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
 Reading symbols from ./a.out...done.
 [New LWP 6759]

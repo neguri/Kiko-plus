@@ -6,28 +6,15 @@ permalink: /about/
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
 ## Works
-
-- Smart Card
-- GSM/WCDMA/LTE Layer3, Mobility Management Protocol
-- RIL
-- Telephony Framework
-- Linux System Programming
+- ... 
 
 
 ## Languages
- - C/C++
- - Python
- - Java
- - Scala
- - Rust
+ - C/CPP
+ - ?
 
 ## Item of interests
- - Data structure & Algorithm
- - Design pattern
- - Test driven development
- - Functional programming
- - Statatics
- - Neural network
+ - Neguri family 
 
 
 ## Rakefile Usage
