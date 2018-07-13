@@ -11,10 +11,11 @@ You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is 
 
 ## Languages
  - C/CPP
- - ?
+ - Python/Rust
+ - Scala/Haskell
 
 ## Item of interests
- - Neguri family 
+ - Neguri family
 
 
 ## Rakefile Usage
