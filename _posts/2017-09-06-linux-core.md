@@ -132,4 +132,12 @@ alias python="/home/neguri/anaconda3/python"
 
 3.6을 쓰고 싶은데 poky 빌드를 하려면 v2가 필요하다고 한다.
 
-
+## 3. 쉘
+1. zsh
+> zsh를 설치하고, bash를 zsh로 변경
+> $ sudo apt-get install zsh
+> $ chsh -s /usr/bin/zsh
+> $ echo $SHELL
+>   /usr/bin/zsh
+> oh-my-zsh 를 설치
+>  $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
