@@ -135,9 +135,9 @@ alias python="/home/neguri/anaconda3/python"
 ## 3. 쉘
 1. zsh
 > zsh를 설치하고, bash를 zsh로 변경
-> $ sudo apt-get install zsh
-> $ chsh -s /usr/bin/zsh
-> $ echo $SHELL
->   /usr/bin/zsh
-> oh-my-zsh 를 설치
->  $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+> $ sudo apt-get install zsh  
+> $ chsh -s /usr/bin/zsh  
+> $ echo $SHELL  
+>   /usr/bin/zsh  
+> oh-my-zsh 를 설치  
+>  $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh  
