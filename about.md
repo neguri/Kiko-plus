@@ -13,9 +13,10 @@ You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is 
  - C/CPP
  - Python/Rust/Go
  - Scala/Haskell
+ - 를 배우고 싶다는 것이지, 사용 할수 있다는 것은 아님
 
 ## Item of interests
- - 낭
+ - 낭만주의
 
 ## 소개
  - 너구리의 남편 + 네구리의 아빠
